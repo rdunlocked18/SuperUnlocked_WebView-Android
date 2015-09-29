@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>Interactive WebView</h1>
+        <p>You can interact with the native functions of the phone, from the local or remote html!</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="col-sm-4">
+        <blockquote class="list-group">
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Vibrate Smartphone</h4>
+                <p class="list-group-item-text">You can operate the phone to vibrate by a button.</p>
+
+                <blockquote>
+                    <p class="small">WebAppInterface.vibrate(milliseconds);</p>
+                </blockquote>
+
+                <p><button type="button" OnClick="window.WebAppInterface.vibrate(1000);" class="btn btn-success center-block">Vibrate 1s</button> <button type="button" OnClick="window.WebAppInterface.vibrate(5000);" class="btn btn-success center-block">Vibrate 5s</button></p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Show Toast</h4>
+                <p class="list-group-item-text">You can show a toast by passing the message from JS.</p>
+                <blockquote>
+                    <p class="small">WebAppInterface.vibrate('Hello World!');</p>
+                </blockquote>
+                <p><button type="button" OnClick="window.WebAppInterface.showToast('Hello World!');" class="btn btn-success center-block">Try it now</button></p>
+            </a>
+
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Play Sound</h4>
+                <p class="list-group-item-text">Play a mp3 file from your app..</p>
+                <blockquote>
+                    <p class="small">WebAppInterface.playSound();</p>
+                </blockquote>
+                <p><button type="button" OnClick="window.WebAppInterface.playSound();" class="btn btn-success center-block">Play start</button> <button type="button" OnClick="window.WebAppInterface.stopSound();" class="btn btn-success center-block">Stopp</button></p>
+            </a>
+
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Push Notification</h4>
+                <p class="list-group-item-text">Create a new notification by passing title and message </p>
+                <blockquote>
+                    <p class="small">WebAppInterface.newNotification(title, msg);</p>
+                </blockquote>
+                <p><button type="button" OnClick="window.WebAppInterface.newNotification('Hello Notificaiton', 'This is your notification from web page');" class="btn btn-success center-block">Try it</button></p>
+            </a>
+
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Create Snak Bar</h4>
+                <p class="list-group-item-text">Like Toast, you can create a new snak bar</p>
+                <p class="small">WebAppInterface.snakBar(msg);</p>
+
+
+                <p><button type="button" OnClick="window.WebAppInterface.snakBar('Your message on Snak Bar');" class="btn btn-success center-block">Try it</button></p>
+            </a>
+        </div>
+    </div>
+
+
+</div>
+<!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
