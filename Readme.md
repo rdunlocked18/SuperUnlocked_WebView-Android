@@ -1,11 +1,11 @@
 # App Description
-  _This app is a simple webview app with FCM notification + drawer submenus
-  _Pretty easy to customize and Run 
-  _Php - Firebase Notifications 
-  _Android - Webview 
-  _Pull To refresh
-  _Loader Options 
-  _String only customization  
+  _This app is a simple webview app with FCM notification + drawer submenus_
+  _Pretty easy to customize and Run_ 
+  _Php - Firebase Notifications_ 
+  _Android - Webview_ 
+  _Pull To refresh_
+  _Loader Options_ 
+  _String only customization_  
   
 # Set up FCM - Just add Configs :)
 If you want the FCM for send push notifications to your customer, you must to follow this steps: Like a google maps setup, you must to create or edit your project on Google Api Console.
