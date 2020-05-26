@@ -1,3 +1,8 @@
+#Changelog 
+  Support to latest android  
+  Notifications Support For M+
+  
+ 
 # App Description
   _This app is a simple webview app with FCM notification + drawer submenus_ <br />
   _Pretty easy to customize and Run_ <br />
