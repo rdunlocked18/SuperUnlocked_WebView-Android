@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity
             // ---------------------------------  Load WebiView with Remote URL -------------------- //
             Bundle bundle = new Bundle();
             bundle.putString("type", "url");
-            bundle.putString("url", "http://www.w3schools.com/");
+            bundle.putString("url", "http://danis.manlik.com.tr/");
             fragment = new FragmentWeb();
             fragment.setArguments(bundle);
 
